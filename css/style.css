@@ -1,0 +1,391 @@
+body, p{
+	font-family: Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	body: 1.125em/1.7em;
+	font-weight: 300;
+}
+
+h1, h4{
+	font-family: Playfair Display, "Georgia", sans-serif;
+}
+
+h2, h4.subheader, h3{
+	font-family: Lato;
+	font-weight: 300;
+}
+
+#weddings-header{
+	padding-top: 3em;
+	margin-bottom: 6em;
+}
+
+#weddings-header .title{
+	margin-top: 2em;
+}
+
+#weddings-header h1 {
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 2.8em;
+}
+
+#weddings-header h2 {
+	font-size: 1.4em;
+	margin-top: 1em;
+}
+
+#weddings-header p{
+  font-size: .888em;
+}
+
+#weddings-header h2.subheader{
+	font-style: italic;
+}
+
+#weddings-header .circle img{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#page{
+  background: #fff;
+ /* box-shadow: 0 0 15px #a3bdb8;
+  -moz-box-shadow: 0 0 15px #a3bdb8;*/
+}
+
+#page ul.small-block-grid-1 li li{
+	padding: 0;
+}
+
+#page .columns .columns, .sectionBg-contact .columns > .columns{
+	padding: 0;
+	margin: 0;
+}
+#page .columns ul{
+	padding: 0;
+	margin: 0;
+}
+
+
+.timeframe + .timeframe{
+  	margin-top: 4em;
+}
+
+
+@media screen and (min-width:768px) {
+  #weddings-header h2 {
+    font-size: 1.8em;
+  }
+  
+  #weddings-header h1 {
+    font-size: 3.333em;
+  }
+  
+  #weddings-header .title{
+  	margin-top: 6em;
+  }
+  
+  #weddings-header h2 {
+  	margin-top: 1.4em;
+  }
+  
+  #weddings-header p{
+    font-size: 1em;
+  }
+  
+}
+
+/*
+
+
+#magellan.fixed, div#magellan.skrollable.skrollable-after, div#magellan.skrollable.skrollable-after.fixed {
+  min-width: 18%;
+  width: 18%;
+  left: 6%;
+}*/
+
+.fixbg{
+  height: 220px;
+  width: 100%;
+  position: static;
+  box-shadow: 
+          inset 0px 11px 10px -6px rgba(0,0,0,.3)
+          ,inset 0px -11px 10px -6px rgba(0,0,0,.3);
+/*  -webkit-transform: translate3d(0,0,0);*/
+  z-index: 10;
+  }
+
+  .fixbg.sectionBg-1{
+    background: url('../img/03casa_sposa/A_66.jpg') no-repeat fixed;
+    -moz-background-size:cover ;
+     -webkit-background-size: cover ;
+     -o-background-size: cover ;
+     background-size: cover ;
+    
+  }
+  
+  .fixbg.sectionBg-2{
+    background: url('../img/04uscita_casa_sposa/C_74.jpg') no-repeat fixed;
+    -moz-background-size:cover !important;
+     -webkit-background-size: cover !important;
+     -o-background-size: cover !important;
+     background-size: cover !important;
+    
+  }
+  
+  .fixbg.sectionBg-3{
+    background: url('../img/esterno/B_79.jpg');
+    background-attachment: fixed !important;
+    -moz-background-size:cover !important;
+     -webkit-background-size: cover !important;
+     -o-background-size: cover !important;
+     background-size: cover !important;
+    
+  }
+  
+  .sectionBg-contact{
+    background: #dae8e5;
+    color: #73827f;
+    border-top: 3px solid #b7c8c5;
+    border-color: #d1dedc;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+  }
+     .sectionBg-contact label{
+       color: #73827f;
+     }
+     
+     .sectionBg-contact input, .sectionBg-contact textarea{
+       background: #d3e3e0;
+       color: #73827f;
+       border: 1px solid #b9c6c4;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+              font-weight: 200;
+     }
+          
+     .sectionBg-contact input:focus, .sectionBg-contact textarea:focus,     .sectionBg-contact input[type=submit]:hover{
+       background: #c0d8d4;
+       color: #73827f;
+       border: 1px solid #b9c6c4;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+
+     }
+     
+     .sectionBg-contact input[type=submit]{
+       text-transform: uppercase;
+       font-weight: 400;
+       font-size: .88em;
+     }
+     
+     #Field8{
+       height: 150px;
+     }
+
+    .sectionBg-contact p{
+      font-size: .777em;
+      margin-bottom: 0;
+    }
+  
+    .sectionBg-contact h3{
+      color: #73827f;
+      font-weight: 400;
+      font-size: 1.6em;
+    }
+    
+    .sectionBg-contact h4{
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 1em;
+      margin-bottom: .25em;
+      font-size: .999em;
+      color: #73827f;
+    }
+
+  /*.fixbg h2{
+    text-align: center;
+    padding-top: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+  }*/
+  
+ /* .fixbg h2 span{
+        border-bottom: 3px solid #fff;
+        border-top: 3px solid #fff;
+        padding: .3em;
+        line-height: 0;
+  }*/
+  
+.section1{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+[class^="content-"].row{
+  margin: 2em auto 6em auto;
+}
+
+[class^="content-"]:last-child{
+  margin-bottom: 0px;/*height of contacts*/
+}
+
+@media screen and (max-width:640px) {
+  ul.example-orbit, .example-orbit li{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+  }
+  
+  .example-orbit li img{
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  .fixbg .titleContainer{
+    max-width: 80%;
+  }
+  
+  ul.example-orbit br{
+    display: none;
+  }
+}
+
+.fixbg .titleContainer{
+  overflow: hidden;
+  -webkit-transform: skew(-20deg);
+  	 -moz-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+  margin: 0em auto;
+  padding: .5em 1.5em;
+  max-width: 300px;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  z-index: 10;
+  
+ /* left: -50%;*/
+  position: relative;
+}
+
+.fixedCenteredContent{
+ 
+  
+  position: relative;
+  top: 40%;
+/*  left: 50%;
+  max-width: 200px;*/
+}
+
+.fixbg .titleContainer:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .3;
+  z-index: -1;
+}
+
+
+
+
+.titleContainer h2{
+  font-size: 1.6em;
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+  -webkit-transform: skew(20deg);
+  	   -moz-transform: skew(20deg);
+  	     -o-transform: skew(20deg);
+
+/*  text-transform: uppercase;*/
+  text-shadow: 0 0 2px #8a8a8a;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.i_row.row{
+  width: 100%;
+  overflow: hidden;
+}
+
+.orbit-slides-container li .row img{
+  padding: .3em;
+}
+
+
+/* ====== NAV  ======= */
+
+ div.contain-to-grid.fixed
+,nav.top-bar
+,.top-bar-section ul
+,.top-bar-section li a:not(.button):hover 
+,.top-bar-section li.hover > a:not(.button)
+,.top-bar-section li a:not(.button)
+,.top-bar-section ul li:hover > a
+
+,.contain-to-grid
+{
+  background: #dae8e5;
+  color: #73827f;
+ }
+  
+ .top-bar-section li a:not(.button):hover 
+ ,.top-bar-section li.hover > a:not(.button)
+ ,.top-bar-section li a:not(.button){
+   font-size: .8em;
+   font-family: Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   letter-spacing: 1px;
+ }
+
+.top-bar-section li > a:not(.button)
+,.top-bar-section li a:not(.button)
+{
+  padding: .2em 0;
+  border-bottom: 2px solid #eae8e8;
+}
+  .top-bar-section li.hover > a:not(.button)
+  ,.top-bar-section li a:not(.button):hover
+  {
+    padding: .2em 0;
+    border-bottom: 2px solid #908b8b;
+  }
+
+.top-bar-section ul li > a{
+  display: inline;
+}
+
+.top-bar
+, .top-bar .name
+,.top-bar-section ul, .top-bar-section li a:not(.button),.top-bar .name h1 a
+{
+  height: 35px!important;
+  line-height: 33px;
+  
+}
+
+.top-bar .name h1 a{
+  color: #73827f;
+  font-style: italic;
+}
+
+.top-bar .name h1 span{
+ font-family: Lato, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+ font-weight: 200;
+ font-size: .77em; 
+ letter-spacing: .1em;
+}
+
+ .top-bar .name h1 a {
+   width: 100%;
+ }
+ 
+ .navWrapper{
+   box-shadow: 0 0 4px #92a3a0;
+   -moz-box-shadow: 0 0 4px #92a3a0;
+ }
