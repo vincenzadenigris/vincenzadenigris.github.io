@@ -140,6 +140,7 @@ div.orbit-container {
   transition: height .5s;
   -webkit-transition: height .5s; /* Safari */
   -moz-transition: height .5s;
+  min-height: 550px;
 }
 
 .fixbg.sectionBg-1{
