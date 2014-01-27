@@ -105,7 +105,7 @@ h2, h4.subheader, h3{
 }*/
 
 .fixbg{
-  height: 220px;
+  height: 200px;
   width: 100%;
   position: static;
   box-shadow: 
@@ -115,8 +115,29 @@ h2, h4.subheader, h3{
   z-index: 10;
   }
 
+
   .fixbg.sectionBg-1{
-    background: url('../img/03casa_sposa/A_66.jpg') no-repeat fixed;
+    background: url('../img/small/fondo_A_66.jpg') no-repeat ;
+    
+  }
+  
+  .fixbg.sectionBg-2{
+    background: url('../img/small/fondo_C_74.jpg') no-repeat;
+    
+  }
+  
+  .fixbg.sectionBg-3{
+    background: url('../img/small/fondo_B_79.jpg') no-repeat;
+    
+  }
+  
+@media screen and (min-width:800px) {
+  .fixbg{
+    height: 220px;
+  }
+    
+  .fixbg.sectionBg-1{
+    background: url('../img/large/fondo_A_66.jpg') no-repeat fixed;
     -moz-background-size:cover ;
      -webkit-background-size: cover ;
      -o-background-size: cover ;
@@ -125,7 +146,7 @@ h2, h4.subheader, h3{
   }
   
   .fixbg.sectionBg-2{
-    background: url('../img/04uscita_casa_sposa/C_74.jpg') no-repeat fixed;
+    background: url('../img/large/fondo_C_74.jpg') no-repeat fixed;
     -moz-background-size:cover !important;
      -webkit-background-size: cover !important;
      -o-background-size: cover !important;
@@ -134,7 +155,7 @@ h2, h4.subheader, h3{
   }
   
   .fixbg.sectionBg-3{
-    background: url('../img/esterno/B_79.jpg');
+    background: url('../img/large/fondo_B_79.jpg');
     background-attachment: fixed !important;
     -moz-background-size:cover !important;
      -webkit-background-size: cover !important;
@@ -142,6 +163,7 @@ h2, h4.subheader, h3{
      background-size: cover !important;
     
   }
+}
   
   .sectionBg-contact{
     background: #dae8e5;
