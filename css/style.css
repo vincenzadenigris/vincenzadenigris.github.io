@@ -135,8 +135,14 @@ h2, h4.subheader, h3{
   .fixbg{
     height: 220px;
   }
-    
-  .fixbg.sectionBg-1{
+
+div.orbit-container {
+  transition: height .5s;
+  -webkit-transition: height .5s; /* Safari */
+  -moz-transition: height .5s;
+}
+
+.fixbg.sectionBg-1{
     background: url('../img/large/fondo_A_66.jpg') no-repeat fixed;
     -moz-background-size:cover ;
      -webkit-background-size: cover ;

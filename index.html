@@ -415,6 +415,12 @@
           swipe: true
 		      }
 		  });
+		  
+		  $(document).on("replace", function() {
+		  //  $('#slider').foundation('orbit');
+		    setTimeout(function() {$(document).resize();}, 200);
+		  });
+		  
 	</script>
 	
 	<script type="text/javascript">
@@ -430,10 +436,6 @@
 		      }, 500);
 		      return false;
 		  });
-		  
-		  setTimeout(function() {
-		  $(document).foundation('interchange', 'reflow');
-		  }, 500);
 		  
 		})  
 	    
