@@ -212,7 +212,18 @@ div.orbit-container {
      #Field8{
        height: 150px;
      }
-
+    
+    .sectionBg-contact .social a{
+      color: #73827f;
+      font-size: 1.4em;
+      display: inline-block;
+      margin-right: .7777em;
+    }
+    
+    .sectionBg-contact .social a:hover{
+      color: #566461;
+    }
+    
     .sectionBg-contact p{
       font-size: .777em;
       margin-bottom: 0;
