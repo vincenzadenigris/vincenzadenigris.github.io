@@ -1,0 +1,99 @@
+.sectionBg-contact, .sectionBg-aboutme{
+    background: #dae8e5;
+    color: #73827f;
+    border-top: 3px solid #b7c8c5;
+    border-color: #d1dedc;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+  }
+  
+  .sectionBg-contact{
+    background-color: #283a38;
+    color: #98a2a0;
+    padding-top: 3em;
+  }
+     .sectionBg-contact label{
+       color: #73827f;
+     }
+     
+     .sectionBg-contact input, .sectionBg-contact textarea{
+       background: #283a38;
+       color: #98a2a0;
+       border: 1px solid #50615f;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+              font-weight: 200;
+     }
+     
+          
+     .sectionBg-contact input:focus, .sectionBg-contact textarea:focus,     .sectionBg-contact input[type=submit]:hover{
+       background: #213230;
+       color: #73827f;
+       border: 1px solid #445755;
+       box-shadow: none;
+       -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+
+     }
+     
+     .sectionBg-contact input[type=submit]{
+       text-transform: uppercase;
+       font-weight: 400;
+       font-size: .88em;
+     }
+     
+     #Field8{
+       height: 150px;
+     }
+    
+    .sectionBg-aboutme .social a{
+      color: #73827f;
+      font-size: 1.4em;
+      display: inline-block;
+      margin-right: .7777em;
+    }
+    
+    .sectionBg-aboutme .social a:hover{
+      color: #566461;
+    }
+    
+    .sectionBg-contact p, .sectionBg-aboutme p{
+      font-size: .777em;
+      margin-bottom: 0;
+    }
+  
+    .sectionBg-contact h3, .sectionBg-aboutme h3{
+      color: #73827f;
+      font-weight: 400;
+      font-size: 1em;
+      text-transform: uppercase;
+    }
+    
+    .sectionBg-contact h4{
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 1em;
+      margin-bottom: .25em;
+      font-size: .999em;
+      color: #73827f;
+    }
+
+#aboutme{
+  margin-top: 1em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+ #aboutme .social{
+   padding-top: 2em;
+ }
+ 
+ @media screen and (min-width:768px){
+   #aboutme{
+     text-align: left;
+   }
+   #aboutme p{
+     padding: .9275em;
+   }
+ }
