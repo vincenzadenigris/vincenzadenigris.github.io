@@ -350,20 +350,22 @@ div.orbit-container {
 }
 
 .orbit-container .orbit-prev {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 32px;
     height: 68px;
 }
 .orbit-container .orbit-prev span:before {
     content: "\2039";
+/*    font-weight: 200;*/
 }
 .orbit-container .orbit-next {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 32px;
     height: 68px;
 }
 .orbit-container .orbit-next span:before {
     content: "\203A";
+/*    font-weight: 200;*/
 }
 
 div.orbit-bullets-container {
